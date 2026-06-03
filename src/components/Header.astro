@@ -5,12 +5,12 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/reedgit/">{SITE_TITLE}</a></h2>
+		<h2><a href={import.meta.env.BASE_URL}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/reedgit/">Home</HeaderLink>
-			<HeaderLink href="/reedgit/blog">Blog</HeaderLink>
-			<HeaderLink href="/reedgit/about">About</HeaderLink>
 		</div>
+			<HeaderLink href={import.meta.env.BASE_URL}>Home</HeaderLink>
+			<HeaderLink href={`${import.meta.env.BASE_URL}blog/`}>Blog</HeaderLink>
+			<HeaderLink href={`${import.meta.env.BASE_URL}about/`}>About</HeaderLink>
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
