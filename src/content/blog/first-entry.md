@@ -1,5 +1,5 @@
 ---
-title: "Why Make This Public?"
+title: ""Why Make This Public?""
 pubDate: 2026-06-02
 description: "On public thinking and keeping a working notebook."
 ---
