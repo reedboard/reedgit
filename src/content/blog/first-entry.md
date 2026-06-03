@@ -30,7 +30,7 @@ coherent. But those phases are often where the actual intellectual
 development happens.
 
 So I think this site is partly an attempt to document that process 
-honestly.
+honestly. 
 
 Maybe over time this becomes: 
 - a research notebook 
